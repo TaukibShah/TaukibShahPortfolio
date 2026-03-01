@@ -76,5 +76,18 @@
     "role": "Designer & Illustrator",
     "year": "2023",
     "featured": false
+  },
+  {
+    "id": 7,
+    "title": "Festival test",
+    "category": "Graphic Design",
+    "thumbnail": "assets/images/projects/brochure.jpg",
+    "images": ["assets/images/projects/brochure1.jpg"],
+    "description": "Tri-fold festival brochure with illustrated artwork and structured editorial layout.",
+    "tools": ["Illustrator", "Photoshop"],
+    "client": "Cultural Committee",
+    "role": "Designer & Illustrator",
+    "year": "2023",
+    "featured": false
   }
 ]
