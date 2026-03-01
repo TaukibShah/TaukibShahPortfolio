@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "title": "Motion Graphic",
+    "thumbnail": "assets/images/videos/promo.jpg",
+    "youtubeEmbed": "https://youtube.com/embed/2nL-ZXc9ZLU",
+    "software": ["Premiere Pro", "After Effects"],
+    "duration": "1:20",
+    "description": "Promotional video edit with cinematic transitions and professional color grading.",
+    "year": "2024",
+    "featured": true
+  },
+  {
+    "id": 2,
+    "title": "Event Highlight Reel",
+    "thumbnail": "assets/images/videos/event.jpg",
+    "youtubeEmbed": "https://www.youtube.com/embed/VIDEO_ID2",
+    "software": ["Premiere Pro"],
+    "duration": "2:10",
+    "description": "Event highlights showcasing dynamic cuts and motion graphics overlays.",
+    "year": "2023",
+    "featured": true
+  },
+  {
+    "id": 3,
+    "title": "Wedding Cinematic Film",
+    "thumbnail": "assets/images/videos/wedding.jpg",
+    "youtubeEmbed": "https://www.youtube.com/embed/VIDEO_ID3",
+    "software": ["Premiere Pro", "After Effects"],
+    "duration": "4:45",
+    "description": "Cinematic wedding film with elegant transitions, color grading, and audio sync.",
+    "year": "2024",
+    "featured": false
+  },
+  {
+    "id": 4,
+    "title": "Brand Story Reel",
+    "thumbnail": "assets/images/videos/brand.jpg",
+    "youtubeEmbed": "https://www.youtube.com/embed/VIDEO_ID4",
+    "software": ["After Effects", "Premiere Pro"],
+    "duration": "0:55",
+    "description": "Short brand story video combining motion graphics with live footage.",
+    "year": "2024",
+    "featured": false
+  }
+]

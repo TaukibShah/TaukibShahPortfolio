@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "title": "Animated Wedding Invitation",
+    "category": "Motion Graphics",
+    "thumbnail": "assets/images/image.png",
+    "images": ["assets/images/projects/wedding1.jpg","assets/images/projects/wedding2.jpg"],
+    "description": "Custom animated wedding invitation tailored to client branding with elegant motion and personalized typography.",
+    "tools": ["After Effects", "Illustrator"],
+    "client": "Private Client",
+    "role": "Motion Designer",
+    "year": "2024",
+    "featured": true
+  },
+  {
+    "id": 2,
+    "title": "College Event Poster",
+    "category": "Graphic Design",
+    "thumbnail": "assets/images/projects/poster.jpg",
+    "images": ["assets/images/projects/poster1.jpg"],
+    "description": "Promotional poster designed for college cultural event with bold typography and vibrant visual composition.",
+    "tools": ["Photoshop"],
+    "client": "College Department",
+    "role": "Designer",
+    "year": "2023",
+    "featured": true
+  },
+  {
+    "id": 3,
+    "title": "Brand Identity Package",
+    "category": "Branding",
+    "thumbnail": "assets/images/projects/brand.jpg",
+    "images": ["assets/images/projects/brand1.jpg"],
+    "description": "Complete brand identity including logo, color palette, typography system, and brand guidelines.",
+    "tools": ["Illustrator", "Photoshop"],
+    "client": "Local Business",
+    "role": "Brand Designer",
+    "year": "2024",
+    "featured": true
+  },
+  {
+    "id": 4,
+    "title": "Social Media Kit",
+    "category": "Graphic Design",
+    "thumbnail": "assets/images/projects/social.jpg",
+    "images": ["assets/images/projects/social1.jpg"],
+    "description": "Cohesive social media template kit for Instagram, Facebook and Twitter with editable layouts.",
+    "tools": ["Canva", "Photoshop"],
+    "client": "Startup Brand",
+    "role": "Designer",
+    "year": "2023",
+    "featured": false
+  },
+  {
+    "id": 5,
+    "title": "Product Launch Campaign",
+    "category": "Motion Graphics",
+    "thumbnail": "assets/images/projects/product.jpg",
+    "images": ["assets/images/projects/product1.jpg"],
+    "description": "Animated product launch visuals with kinetic typography and 3D product mockups.",
+    "tools": ["After Effects", "Illustrator"],
+    "client": "E-Commerce Brand",
+    "role": "Motion Designer",
+    "year": "2024",
+    "featured": false
+  },
+  {
+    "id": 6,
+    "title": "Festival Brochure",
+    "category": "Graphic Design",
+    "thumbnail": "assets/images/projects/brochure.jpg",
+    "images": ["assets/images/projects/brochure1.jpg"],
+    "description": "Tri-fold festival brochure with illustrated artwork and structured editorial layout.",
+    "tools": ["Illustrator", "Photoshop"],
+    "client": "Cultural Committee",
+    "role": "Designer & Illustrator",
+    "year": "2023",
+    "featured": false
+  }
+]
