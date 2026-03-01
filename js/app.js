@@ -136,7 +136,6 @@ function projectCard(p) {
   const thumbHtml = `
     <div class="card-thumb">
       <img src="${p.thumbnail}" alt="${p.title}" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-      <div class="card-thumb-placeholder"><span class="ph-icon">🎨</span></div>
       <div class="card-overlay"><div class="card-overlay-btn">View Details</div></div>
     </div>`;
 
@@ -375,7 +374,7 @@ const DEMO_DATA = {
     phone: "+91 9421693896",
     tagline: "Creating visually engaging designs and cinematic video edits.",
     about: "I am a graphic designer and video editor passionate about graphics, illustration, and motion visuals. I enjoy teamwork, creative problem-solving, and delivering professional-quality work that resonates with audiences.",
-    profileImage: "assets/images/profile.jpg"
+    profileImage: "assets/profile.jpeg"
   },
   skills: {
     professional: [
