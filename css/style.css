@@ -1012,81 +1012,18 @@ footer {
   .contact-form  { padding: 24px 20px; }
   .modal-body    { padding: 16px 18px 24px; }
 }
-.card-carousel {
-  position: relative;
-  overflow: hidden;
+
+.image-modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.9);
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
 }
 
-.carousel-track {
-  display: flex;
-  transition: transform 0.35s ease;
-}
-
-.carousel-slide {
-  min-width: 100%;
-}
-
-.carousel-slide img {
-  width: 100%;
-  aspect-ratio: 16 / 9;
-  object-fit: cover;
-  display: block;
-}
-
-.carousel-btn {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background: rgba(0, 0, 0, 0.5);
-  color: #fff;
-  border: none;
-  padding: 6px 12px;
-  font-size: 1.5rem;
-  cursor: pointer;
-  border-radius: 4px;
-  z-index: 2;
-}
-.carousel-btn.prev { left: 8px; }
-.carousel-btn.next { right: 8px; }
-
-.carousel-dots {
-  position: absolute;
-  bottom: 8px;
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-  gap: 6px;
-}
-
-.dot {
-  width: 7px;
-  height: 7px;
-  border-radius: 50%;
-  background: rgba(255, 255, 255, 0.5);
-}
-
-.dot.active {
-  background: #fff;
-}
-.modal-carousel {
-  position: relative;
-  overflow: hidden;
-  border-radius: 8px;
-  margin-bottom: 1.2rem;
-}
-
-.modal-carousel-track {
-  display: flex;
-  transition: transform 0.35s ease;
-}
-
-.modal-carousel-slide {
-  min-width: 100%;
-}
-
-.modal-carousel-slide img {
-  width: 100%;
-  aspect-ratio: 16 / 9;
-  object-fit: cover;
-  display: block;
+.image-modal-content {
+  max-width: 95%;
+  max-height: 95%;
 }

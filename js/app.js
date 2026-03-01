@@ -132,28 +132,52 @@ function renderProjects(filter = 'all') {
   document.getElementById('projectsGrid').innerHTML = list.map(projectCard).join('');
 }
 
-function projectCard(p) {
-  const thumbHtml = `
-    <div class="card-thumb">
-      <img src="${p.thumbnail}" alt="${p.title}" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-      <div class="card-overlay"><div class="card-overlay-btn">View Details</div></div>
-    </div>`;
+// function projectCard(p) {
+//   const thumbHtml = `
+//     <div class="card-thumb">
+//       <img src="${p.thumbnail}" alt="${p.title}" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+//       <div class="card-thumb-placeholder"><span class="ph-icon">🎨</span></div>
+//       <div class="card-overlay"><div class="card-overlay-btn">View Details</div></div>
+//     </div>`;
 
+//   return `
+//     <div class="card" onclick="openProjectModal(${p.id})">
+//     <img src="${p.thumbnail}" alt="${p.title}
+//       <div class="card-body">
+//         <div class="card-cat">${p.category}</div>
+//         <div class="card-title">${p.title}</div>
+//         <div class="card-desc">${p.description}</div>
+//         <div class="card-tools">${p.tools.map(t => `<span class="tool-tag">${t}</span>`).join('')}</div>
+//         <div class="card-meta">
+//           <span class="card-year">${p.year}</span>
+//         </div>
+//       </div>
+//     </div>`;
+// }
+function projectCard(p) {
   return `
-    <div class="card" onclick="openProjectModal(${p.id})">
-      ${thumbHtml}
+    <div class="card" onclick="openProjectModal('${p.thumbnail}')">
+      <div class="card-thumb">
+        <img src="${p.thumbnail}" alt="${p.title}"
+          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+        <div class="card-overlay">
+          <div class="card-overlay-btn">View Image</div>
+        </div>
+      </div>
+
       <div class="card-body">
         <div class="card-cat">${p.category}</div>
         <div class="card-title">${p.title}</div>
         <div class="card-desc">${p.description}</div>
-        <div class="card-tools">${p.tools.map(t => `<span class="tool-tag">${t}</span>`).join('')}</div>
+        <div class="card-tools">
+          ${p.tools.map(t => `<span class="tool-tag">${t}</span>`).join('')}
+        </div>
         <div class="card-meta">
           <span class="card-year">${p.year}</span>
         </div>
       </div>
     </div>`;
 }
-
 // ── VIDEOS ────────────────────────────────────
 function renderVideos() {
   document.getElementById('videosGrid').innerHTML = DATA.videos.map(videoCard).join('');
@@ -283,27 +307,38 @@ function setupNav() {
 }
 
 // ── MODALS ────────────────────────────────────
-function openProjectModal(id) {
-  const p = DATA.projects.find(x => x.id === id);
-  if (!p) return;
+// function openProjectModal(id) {
+//   const p = DATA.projects.find(x => x.id === id);
+//   if (!p) return;
 
-  const img = p.thumbnail
-    ? `<img class="modal-img" src="${p.thumbnail}" alt="${p.title}" onerror="this.style.background='var(--bg3)'; this.removeAttribute('src')">`
-    : '';
+//   const img = p.thumbnail
+//     ? `<img class="modal-img" src="${p.thumbnail}" alt="${p.title}" onerror="this.style.background='var(--bg3)'; this.removeAttribute('src')">`
+//     : '';
 
-  document.getElementById('modalBody').innerHTML = `
-    ${img}
-    <div class="modal-cat">${p.category}</div>
-    <div class="modal-title">${p.title}</div>
-    <div class="modal-desc">${p.description}</div>
-    <div class="modal-meta">
-      <div class="modal-meta-item"><div class="modal-meta-label">Year</div><div class="modal-meta-value">${p.year}</div></div>
-      ${p.client ? `<div class="modal-meta-item"><div class="modal-meta-label">Client</div><div class="modal-meta-value">${p.client}</div></div>` : ''}
-      ${p.role   ? `<div class="modal-meta-item"><div class="modal-meta-label">Role</div><div class="modal-meta-value">${p.role}</div></div>` : ''}
-    </div>
-    <div class="modal-tools">${p.tools.map(t => `<span class="tool-tag">${t}</span>`).join('')}</div>`;
+//   document.getElementById('modalBody').innerHTML = `
+//     ${img}
+//     <div class="modal-cat">${p.category}</div>
+//     <div class="modal-title">${p.title}</div>
+//     <div class="modal-desc">${p.description}</div>
+//     <div class="modal-meta">
+//       <div class="modal-meta-item"><div class="modal-meta-label">Year</div><div class="modal-meta-value">${p.year}</div></div>
+//       ${p.client ? `<div class="modal-meta-item"><div class="modal-meta-label">Client</div><div class="modal-meta-value">${p.client}</div></div>` : ''}
+//       ${p.role   ? `<div class="modal-meta-item"><div class="modal-meta-label">Role</div><div class="modal-meta-value">${p.role}</div></div>` : ''}
+//     </div>
+//     <div class="modal-tools">${p.tools.map(t => `<span class="tool-tag">${t}</span>`).join('')}</div>`;
 
-  openModal();
+//   openModal();
+// }
+function openProjectModal(imageSrc) {
+  const modal = document.getElementById("imageModal");
+  const img = document.getElementById("fullImage");
+
+  img.src = imageSrc;
+  modal.style.display = "flex";
+}
+
+function closeImageModal() {
+  document.getElementById("imageModal").style.display = "none";
 }
 
 function openVideoModal(id) {
