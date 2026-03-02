@@ -1,14 +1,17 @@
 [
   {
     "id": 1,
-    "title": "Animated Wedding Invitation",
+    "title": "Nothing Phone — Product Launch Flyer",
     "category": "Graphic Design",
     "thumbnail": "assets/NOTHING.png",
-    "description": "Custom animated wedding invitation tailored to client branding with elegant motion and personalized typography.",
-    "tools": ["After Effects", "Illustrator"],
-    "client": "Private Client",
-    "role": "Motion Designer",
-    "year": "2024",
+    "description": "A bold, high-contrast promotional design highlighting the “Nothing to Hide” concept with striking neon-
+    green minimalist typography. The composition uses dramatic lighting and a sleek product close-up to create
+    depth and focus, balancing negative space with strong visual hierarchy. Designed and captured by me, this
+    piece emphasizes clean layout, modern aesthetics, and impactful minimal brandingv.",
+    "tools": ["photoshop", "Illustrator"],
+    "client": "Personal Project",
+    "role": "Graphic Designer",
+    "year": "2025",
     "featured": true
   },
   {
