@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Motion Graphic",
-    "thumbnail": "assets/images/videos/promo.jpg",
+    "thumbnail": "assets/gemgen.png",
     "youtubeEmbed": "https://youtube.com/embed/2nL-ZXc9ZLU",
     "software": ["After Effects"],
     "duration": "1:20",
@@ -13,7 +13,7 @@
   {
     "id": 2,
     "title": "netflix",
-    "thumbnail": "assets/images/videos/event.jpg",
+    "thumbnail": "assets/netflix.png",
     "youtubeEmbed": "https://www.youtube.com/embed/QCgmDzQZ_Vc",
     "software": ["after efects"],
     "duration": "0:11",
@@ -24,7 +24,7 @@
   {
     "id": 3,
     "title": "Wedding Cinematic Film",
-    "thumbnail": "assets/images/videos/wedding.jpg",
+    "thumbnail": "assets/wededit.png",
     "youtubeEmbed": "https://www.youtube.com/embed/sF3wm-7bRoQ",
     "software": ["Premiere Pro"],
     "duration": "0:53",
@@ -35,7 +35,7 @@
  {
     "id": 4,
     "title": "pre wedding edit",
-    "thumbnail": "assets/images/videos/brand.jpg",
+    "thumbnail": "assets/prewed.png",
     "youtubeEmbed": "https://www.youtube.com/embed/9ZARDMEDiqs",
     "software": ["Premiere Pro"],
     "duration": "0:42",
@@ -46,7 +46,7 @@
  {
     "id": 5,
     "title": "collage event promotion ",
-    "thumbnail": "assets/images/videos/brand.jpg",
+    "thumbnail": "assets/code.png",
     "youtubeEmbed": "https://www.youtube.com/embed/LKmw9CIHmlY",
     "software": ["after efects"],
     "duration": "0:13",
@@ -57,7 +57,7 @@
 {
     "id": 6,
     "title": "wedding invitation",
-    "thumbnail": "assets/images/videos/brand.jpg",
+    "thumbnail": "assets/WED CARD 2.jpg",
     "youtubeEmbed": "https://www.youtube.com/embed/Rpqr0w9aktM?feature=share",
     "software": ["photoshop , after efects"],
     "duration": "0:21",
