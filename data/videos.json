@@ -36,33 +36,32 @@
     "id": 4,
     "title": "pre wedding edit",
     "thumbnail": "assets/images/videos/brand.jpg",
-    "youtube Embed": "https://www.youtube.com/embed/9ZARDMEDiqs",
+    "youtubeEmbed": "https://www.youtube.com/embed/9ZARDMEDiqs",
     "software": ["Premiere Pro"],
     "duration": "0:42",
     "description": "Short pre wedding story video combining effects with live footage.",
     "year": "2026",
     "featured": false
-  }
-
+  },
  {
     "id": 5,
     "title": "collage event promotion ",
     "thumbnail": "assets/images/videos/brand.jpg",
-    "youtube Embed": "https://www.youtube.com/embed/LKmw9CIHmlY",
+    "youtubeEmbed": "https://www.youtube.com/embed/LKmw9CIHmlY",
     "software": ["after efects"],
     "duration": "0:13",
     "description": "Short event promotion motion graphic video",
     "year": "2025",
     "featured": false
-  }
+  },
 {
     "id": 6,
     "title": "wedding invitation",
     "thumbnail": "assets/images/videos/brand.jpg",
-    "youtube Embed": "https://www.youtube.com/embed/Rpqr0w9aktM?feature=share",
+    "youtubeEmbed": "https://www.youtube.com/embed/Rpqr0w9aktM?feature=share",
     "software": ["photoshop , after efects"],
     "duration": "0:21",
-    "description": "Short event promotion motion graphic video",
+    "description": "digital wedding invitation card",
     "year": "2025",
     "featured": false
   }

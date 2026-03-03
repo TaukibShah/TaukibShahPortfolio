@@ -1,17 +1,16 @@
 {
- 
   "software": [
     { "name": "Photoshop", "level": 90 },
     { "name": "Illustrator", "level": 85 },
     { "name": "After Effects", "level": 80 },
     { "name": "Premiere Pro", "level": 88 },
     { "name": "Canva", "level": 92 }
-  ]
-}
-"professional": [
+  ],
+  "professional": [
     { "name": "Creativity", "level": 90 },
     { "name": "Communication", "level": 85 },
     { "name": "Teamwork", "level": 88 },
     { "name": "Leadership", "level": 75 },
     { "name": "Management", "level": 80 }
-  ],
+  ]
+}
